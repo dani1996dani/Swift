@@ -17,9 +17,9 @@ rightTraiange(height: 9)
 func leftTriangle(height : Int){
     var str : String = ""
     for i in 0..<height{
-     str = String(repeating: " ",count:height - i)
+        str = String(repeating: " ",count:height - i)
         str.append(String(repeating:"*",count: i))
-print(str)
+        print(str)
     }
     
 }
