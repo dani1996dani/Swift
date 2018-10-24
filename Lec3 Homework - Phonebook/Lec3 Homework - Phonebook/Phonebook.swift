@@ -32,7 +32,7 @@ struct Phonebook : CustomStringConvertible{
     
     mutating func updateContact(index : Int,newContact : Contact) -> Bool{
         if index < contacts.count{
-        contacts[index] = newContact
+            contacts[index] = newContact
             return true
         }
         return false

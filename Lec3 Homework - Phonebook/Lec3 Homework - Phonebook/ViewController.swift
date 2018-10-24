@@ -9,13 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         var phoneBook = Phonebook(contacts: [])
-//        phoneBook.contacts.append(Contact(name: "Daniel", email: "test@gmail.com", number: "050-2342343", phoneType: .SmartPhone))
+        
         for _ in 0..<5{
             phoneBook.appendContact(newcontact: Contact())
         }
@@ -35,9 +35,5 @@ class ViewController: UIViewController {
             print("zippite squat")
         }
     }
-
-   
-
-
 }
 
