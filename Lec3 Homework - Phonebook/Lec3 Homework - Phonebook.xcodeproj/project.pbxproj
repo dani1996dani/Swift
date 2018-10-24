@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65034C7F2180C100005A5BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034C7E2180C100005A5BA8 /* AppDelegate.swift */; };
+		65034C812180C100005A5BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034C802180C100005A5BA8 /* ViewController.swift */; };
+		65034C842180C100005A5BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65034C822180C100005A5BA8 /* Main.storyboard */; };
+		65034C862180C100005A5BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65034C852180C100005A5BA8 /* Assets.xcassets */; };
+		65034C892180C100005A5BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65034C872180C100005A5BA8 /* LaunchScreen.storyboard */; };
+		65034C912180C1D1005A5BA8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034C902180C1D1005A5BA8 /* Contact.swift */; };
+		65034C932180C228005A5BA8 /* PhoneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034C922180C228005A5BA8 /* PhoneType.swift */; };
+		65034C952180C2F0005A5BA8 /* Phonebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034C942180C2F0005A5BA8 /* Phonebook.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65034C7B2180C100005A5BA8 /* Lec3 Homework - Phonebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lec3 Homework - Phonebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65034C7E2180C100005A5BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65034C802180C100005A5BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65034C832180C100005A5BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65034C852180C100005A5BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65034C882180C100005A5BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65034C8A2180C100005A5BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65034C902180C1D1005A5BA8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		65034C922180C228005A5BA8 /* PhoneType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneType.swift; sourceTree = "<group>"; };
+		65034C942180C2F0005A5BA8 /* Phonebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phonebook.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65034C782180C100005A5BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65034C722180C100005A5BA8 = {
+			isa = PBXGroup;
+			children = (
+				65034C7D2180C100005A5BA8 /* Lec3 Homework - Phonebook */,
+				65034C7C2180C100005A5BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65034C7C2180C100005A5BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65034C7B2180C100005A5BA8 /* Lec3 Homework - Phonebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65034C7D2180C100005A5BA8 /* Lec3 Homework - Phonebook */ = {
+			isa = PBXGroup;
+			children = (
+				65034C7E2180C100005A5BA8 /* AppDelegate.swift */,
+				65034C802180C100005A5BA8 /* ViewController.swift */,
+				65034C822180C100005A5BA8 /* Main.storyboard */,
+				65034C852180C100005A5BA8 /* Assets.xcassets */,
+				65034C872180C100005A5BA8 /* LaunchScreen.storyboard */,
+				65034C8A2180C100005A5BA8 /* Info.plist */,
+				65034C902180C1D1005A5BA8 /* Contact.swift */,
+				65034C922180C228005A5BA8 /* PhoneType.swift */,
+				65034C942180C2F0005A5BA8 /* Phonebook.swift */,
+			);
+			path = "Lec3 Homework - Phonebook";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65034C7A2180C100005A5BA8 /* Lec3 Homework - Phonebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65034C8D2180C100005A5BA8 /* Build configuration list for PBXNativeTarget "Lec3 Homework - Phonebook" */;
+			buildPhases = (
+				65034C772180C100005A5BA8 /* Sources */,
+				65034C782180C100005A5BA8 /* Frameworks */,
+				65034C792180C100005A5BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lec3 Homework - Phonebook";
+			productName = "Lec3 Homework - Phonebook";
+			productReference = 65034C7B2180C100005A5BA8 /* Lec3 Homework - Phonebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65034C732180C100005A5BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniel Butrashvili";
+				TargetAttributes = {
+					65034C7A2180C100005A5BA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65034C762180C100005A5BA8 /* Build configuration list for PBXProject "Lec3 Homework - Phonebook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65034C722180C100005A5BA8;
+			productRefGroup = 65034C7C2180C100005A5BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65034C7A2180C100005A5BA8 /* Lec3 Homework - Phonebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65034C792180C100005A5BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65034C892180C100005A5BA8 /* LaunchScreen.storyboard in Resources */,
+				65034C862180C100005A5BA8 /* Assets.xcassets in Resources */,
+				65034C842180C100005A5BA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65034C772180C100005A5BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65034C952180C2F0005A5BA8 /* Phonebook.swift in Sources */,
+				65034C912180C1D1005A5BA8 /* Contact.swift in Sources */,
+				65034C812180C100005A5BA8 /* ViewController.swift in Sources */,
+				65034C932180C228005A5BA8 /* PhoneType.swift in Sources */,
+				65034C7F2180C100005A5BA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65034C822180C100005A5BA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65034C832180C100005A5BA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65034C872180C100005A5BA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65034C882180C100005A5BA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65034C8B2180C100005A5BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65034C8C2180C100005A5BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65034C8E2180C100005A5BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lec3 Homework - Phonebook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.hackeru.dani.Lec3-Homework---Phonebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65034C8F2180C100005A5BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lec3 Homework - Phonebook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.hackeru.dani.Lec3-Homework---Phonebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65034C762180C100005A5BA8 /* Build configuration list for PBXProject "Lec3 Homework - Phonebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65034C8B2180C100005A5BA8 /* Debug */,
+				65034C8C2180C100005A5BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65034C8D2180C100005A5BA8 /* Build configuration list for PBXNativeTarget "Lec3 Homework - Phonebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65034C8E2180C100005A5BA8 /* Debug */,
+				65034C8F2180C100005A5BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65034C732180C100005A5BA8 /* Project object */;
+}
