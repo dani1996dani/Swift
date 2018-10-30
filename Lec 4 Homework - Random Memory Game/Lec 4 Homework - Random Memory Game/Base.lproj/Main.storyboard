@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="HelveticaNeueExtras.ttc">
+            <string>HelveticaNeue-CondensedBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lec_4_Homework___Random_Memory_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVH-P2-W2j">
+                                <rect key="frame" x="32" y="125" width="80" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="👻"/>
+                                <connections>
+                                    <action selector="cardTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ytr-hX-ERC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQH-KN-uPk">
+                                <rect key="frame" x="147.5" y="125" width="80" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="👻"/>
+                                <connections>
+                                    <action selector="cardTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUG-vm-sqI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bm7-id-OA4">
+                                <rect key="frame" x="263" y="125" width="80" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="👻"/>
+                                <connections>
+                                    <action selector="cardTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dzo-BC-vkh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HW5-QW-fEm">
+                                <rect key="frame" x="32" y="239" width="80" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="👻"/>
+                                <connections>
+                                    <action selector="cardTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P0v-VG-R79"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDs-gD-I1z">
+                                <rect key="frame" x="147.5" y="239" width="80" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="👻"/>
+                                <connections>
+                                    <action selector="cardTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FhJ-k0-ct3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGM-Ee-I8f">
+                                <rect key="frame" x="263" y="239" width="80" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="👻"/>
+                                <connections>
+                                    <action selector="cardTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k9e-pY-RNq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Halloween Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoU-KQ-an4">
+                                <rect key="frame" x="54" y="52" width="267.5" height="41"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spooky Points: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L74-Es-XHt">
+                                <rect key="frame" x="72.5" y="593" width="230" height="42"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85490517740000005" blue="0.67959320889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oQH-KN-uPk" firstAttribute="top" secondItem="PoU-KQ-an4" secondAttribute="bottom" constant="32" id="02I-Sy-AyR"/>
+                            <constraint firstItem="HW5-QW-fEm" firstAttribute="top" secondItem="rVH-P2-W2j" secondAttribute="bottom" constant="32" id="1wp-Wu-zdN"/>
+                            <constraint firstItem="rVH-P2-W2j" firstAttribute="top" secondItem="PoU-KQ-an4" secondAttribute="bottom" constant="32" id="5zI-Oy-60f"/>
+                            <constraint firstItem="lDs-gD-I1z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ep9-TO-bHC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="L74-Es-XHt" secondAttribute="bottom" constant="32" id="GD6-ZX-PGt"/>
+                            <constraint firstItem="PoU-KQ-an4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GUe-Qj-gEl"/>
+                            <constraint firstItem="PoU-KQ-an4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="KNe-O7-Htw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SGM-Ee-I8f" secondAttribute="trailing" constant="32" id="W29-vK-civ"/>
+                            <constraint firstItem="HW5-QW-fEm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="XW9-wg-2CG"/>
+                            <constraint firstItem="oQH-KN-uPk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bur-a1-kch"/>
+                            <constraint firstItem="L74-Es-XHt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gT7-4Q-y0I"/>
+                            <constraint firstItem="rVH-P2-W2j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="md4-Tn-Hdg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bm7-id-OA4" secondAttribute="trailing" constant="32" id="nFC-Ay-uum"/>
+                            <constraint firstItem="SGM-Ee-I8f" firstAttribute="top" secondItem="Bm7-id-OA4" secondAttribute="bottom" constant="32" id="pBj-k5-wI4"/>
+                            <constraint firstItem="lDs-gD-I1z" firstAttribute="top" secondItem="oQH-KN-uPk" secondAttribute="bottom" constant="32" id="u8U-bI-ApB"/>
+                            <constraint firstItem="Bm7-id-OA4" firstAttribute="top" secondItem="PoU-KQ-an4" secondAttribute="bottom" constant="32" id="wFz-f5-UlD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pointsLabel" destination="L74-Es-XHt" id="NAf-Tu-C9W"/>
+                        <outletCollection property="cards" destination="rVH-P2-W2j" collectionClass="NSMutableArray" id="weV-cb-qfT"/>
+                        <outletCollection property="cards" destination="oQH-KN-uPk" collectionClass="NSMutableArray" id="b5u-CV-9Cz"/>
+                        <outletCollection property="cards" destination="Bm7-id-OA4" collectionClass="NSMutableArray" id="qvI-oB-2Wh"/>
+                        <outletCollection property="cards" destination="HW5-QW-fEm" collectionClass="NSMutableArray" id="pEk-2n-r4L"/>
+                        <outletCollection property="cards" destination="lDs-gD-I1z" collectionClass="NSMutableArray" id="iKc-Vy-Vq3"/>
+                        <outletCollection property="cards" destination="SGM-Ee-I8f" collectionClass="NSMutableArray" id="MRq-Rd-BVZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
