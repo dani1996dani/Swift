@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+        <array key="HelveticaNeueExtras.ttc">
+            <string>HelveticaNeue-CondensedBlack</string>
+            <string>HelveticaNeue-CondensedBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lec_5___Homework___Memory_Game_With_Levels" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memory Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxH-iR-4at">
+                                <rect key="frame" x="16" y="52" width="343" height="42"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-T7-xgZ">
+                                <rect key="frame" x="16" y="126" width="343" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zZb-v3-p0O">
+                                <rect key="frame" x="16" y="188" width="343" height="0.0"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvM-7F-jpN">
+                                        <rect key="frame" x="-16" y="-188" width="0.0" height="82"/>
+                                        <color key="backgroundColor" red="1" green="0.72513071755100444" blue="0.066988775279596902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="1"/>
+                                        <connections>
+                                            <action selector="levelButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7LZ-7k-mSM"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttS-xd-gs0">
+                                        <rect key="frame" x="-16" y="-188" width="0.0" height="82"/>
+                                        <color key="backgroundColor" red="1" green="0.72513071755100444" blue="0.066988775279596902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="2"/>
+                                        <connections>
+                                            <action selector="levelButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2bj-kd-g1M"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8M-wn-lSJ">
+                                        <rect key="frame" x="-16" y="-188" width="0.0" height="82"/>
+                                        <color key="backgroundColor" red="1" green="0.72513071755100444" blue="0.066988775279596902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                        <state key="normal" title="3"/>
+                                        <connections>
+                                            <action selector="levelButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="doW-dQ-a79"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85490517740000005" blue="0.67959320889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zZb-v3-p0O" secondAttribute="trailing" constant="16" id="5EM-zH-mTL"/>
+                            <constraint firstItem="QxH-iR-4at" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5z4-gJ-kh9"/>
+                            <constraint firstItem="zZb-v3-p0O" firstAttribute="top" secondItem="8iq-T7-xgZ" secondAttribute="bottom" constant="32" id="7ML-M9-ftp"/>
+                            <constraint firstItem="8iq-T7-xgZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Bjr-oq-dev"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QxH-iR-4at" secondAttribute="trailing" constant="16" id="IXv-7d-ERr"/>
+                            <constraint firstItem="8iq-T7-xgZ" firstAttribute="top" secondItem="QxH-iR-4at" secondAttribute="bottom" constant="32" id="IZL-D0-fnN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8iq-T7-xgZ" secondAttribute="trailing" constant="16" id="Ouk-eY-NbT"/>
+                            <constraint firstItem="QxH-iR-4at" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="cnd-oC-sho"/>
+                            <constraint firstItem="zZb-v3-p0O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uts-HD-rWr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="selectLabelText" destination="8iq-T7-xgZ" id="jjc-15-Kqx"/>
+                        <segue destination="9J8-TM-opC" kind="show" identifier="toLevel" id="xll-gQ-Rep"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-86" y="27"/>
+        </scene>
+        <!--Level View Controller-->
+        <scene sceneID="OUP-H9-usK">
+            <objects>
+                <viewController id="9J8-TM-opC" customClass="LevelViewController" customModule="Lec_5___Homework___Memory_Game_With_Levels" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lt4-L0-EBO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prQ-qf-1vn">
+                                <rect key="frame" x="150" y="52" width="75.5" height="41.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQR-b7-xRA">
+                                <rect key="frame" x="257" y="52" width="102" height="42"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="Next Level">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToNextLevel:" destination="9J8-TM-opC" eventType="touchUpInside" id="t09-dS-9lC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ac-dT-Fv4">
+                                <rect key="frame" x="16" y="52" width="107" height="41.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" title="Main Menu">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="zwH-Oe-XWC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="prQ-qf-1vn" firstAttribute="top" secondItem="cIG-3D-Cru" secondAttribute="top" constant="32" id="7Cb-UH-JKl"/>
+                            <constraint firstItem="cIG-3D-Cru" firstAttribute="trailing" secondItem="lQR-b7-xRA" secondAttribute="trailing" constant="16" id="8ut-6C-pxl"/>
+                            <constraint firstItem="4Ac-dT-Fv4" firstAttribute="centerY" secondItem="prQ-qf-1vn" secondAttribute="centerY" id="D0q-Ef-MqC"/>
+                            <constraint firstItem="4Ac-dT-Fv4" firstAttribute="leading" secondItem="cIG-3D-Cru" secondAttribute="leading" constant="16" id="ahC-km-fUg"/>
+                            <constraint firstItem="lQR-b7-xRA" firstAttribute="top" secondItem="cIG-3D-Cru" secondAttribute="top" constant="32" id="lZh-3n-XXp"/>
+                            <constraint firstItem="prQ-qf-1vn" firstAttribute="centerX" secondItem="lt4-L0-EBO" secondAttribute="centerX" id="ml7-pF-6Sx"/>
+                            <constraint firstItem="4Ac-dT-Fv4" firstAttribute="top" secondItem="cIG-3D-Cru" secondAttribute="top" constant="32" id="pwP-jJ-oHQ"/>
+                            <constraint firstItem="lQR-b7-xRA" firstAttribute="centerY" secondItem="prQ-qf-1vn" secondAttribute="centerY" id="qhp-Ea-cro"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cIG-3D-Cru"/>
+                    </view>
+                    <connections>
+                        <outlet property="levelLabel" destination="prQ-qf-1vn" id="iWt-e6-UIM"/>
+                        <outlet property="nextLevelButton" destination="lQR-b7-xRA" id="x9W-eL-E56"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMy-gR-gET" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="808" y="112"/>
+        </scene>
+    </scenes>
+</document>
